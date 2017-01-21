@@ -46,5 +46,6 @@ def get_identicon(name):
 def escape(name):
     return html.escape(name, quote=True)
 
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
